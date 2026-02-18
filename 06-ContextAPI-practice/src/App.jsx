@@ -10,7 +10,7 @@ function App() {
   return (
     <div style={{
       background: dark ? "#222" : "#eee",
-      color: dark ? "#fff" : "#000",
+      color: dark ? "#fff" : "#1111",
       minHeight: "100vh",
       padding: "20px"
     }}>
@@ -26,3 +26,4 @@ function App() {
 }
 
 export default App;
+   
