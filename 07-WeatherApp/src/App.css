@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+.app {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 40px;
+  color: white;
+}
+
+.loading {
+  color: white;
+  font-size: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+}
