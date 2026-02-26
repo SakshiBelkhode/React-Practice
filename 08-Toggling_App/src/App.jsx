@@ -5,7 +5,7 @@ function App() {
   // Step 1: Create state
   const [status, setStatus] = useState(false);
 
-  // Step 2: Function to change state
+  // Step 2: Function to change state  If false - becomes True ---If true - becomes false
   function handleClick() {
     setStatus(!status);
   }
