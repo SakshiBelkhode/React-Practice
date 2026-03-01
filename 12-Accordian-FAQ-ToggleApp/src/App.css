@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.question {
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.question:hover {
+  color: #4e73df;
+}
+
+.answer {
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+}
