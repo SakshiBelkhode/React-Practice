@@ -19,14 +19,21 @@ const App = () => {
       {data.map((user)=>(
 
       <>
+
       <p key = {user.name}>{user.name}</p>
-      <p key = {user.email}>{user.email}</p>     
+      <p key = {user.email}>{user.email}</p>
+      
+      
+      
       </>
-      ))}   
+
+
+
+      ))}
+      
+      
     </div>
   )
 }
 
 export default App
-
-
