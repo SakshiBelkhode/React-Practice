@@ -6,8 +6,8 @@ import axios from 'axios'
 const App = () => {
   const [data, setData] = useState([]);
   useEffect (()=> {
-    const fetchData = async () => {
-      const result = await axios.get("https://jsonplaceholder.typicode.com/users")
+    const fetchData = () => {
+      const result = axios.get("https://jsonplaceholder.typicode.com/users")
       setData(result?.data)
       console.log(result)
     }
@@ -19,21 +19,14 @@ const App = () => {
       {data.map((user)=>(
 
       <>
-
       <p key = {user.name}>{user.name}</p>
-      <p key = {user.email}>{user.email}</p>
-      
-      
-      
+      <p key = {user.email}>{user.email}</p>     
       </>
-
-
-
-      ))}
-      
-      
+      ))}   
     </div>
   )
 }
 
 export default App
+
+
